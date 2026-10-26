@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.6rem;
+}
+
+.colors button {
+  font-size: 1.1rem;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.todo {
+  width: 76%;
+  margin: 70px auto 0;
+}
+
+.todo h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.todo input {
+  width: 100%;
+  padding: 16px 18px;
+  font-size: 1.2rem;
+  border: 1px solid #d5d5d5;
+  border-radius: 12px;
+  outline: none;
+  font-family: inherit;
+}
+
+.todo input:focus {
+  border-color: #7740ff;
+}
+
+.todo .add-btn {
+  width: 100%;
+  margin-top: 24px;
+  padding: 14px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #7740ff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.todo .add-btn:hover {
+  background: #6530e6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  font-size: 1.15rem;
+}
+
+li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
